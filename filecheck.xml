@@ -6,10 +6,8 @@
 
 <module name="Checker">
 
-    <!-- Specify the coding standard rules and checks -->
     <module name="TreeWalker">
 
-        <!-- Configure indentation checks -->
         <module name="Indentation">
             <property name="basicOffset" value="4" />
             <property name="braceAdjustment" value="0" />
