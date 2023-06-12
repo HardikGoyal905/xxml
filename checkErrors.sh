@@ -12,8 +12,6 @@ countErrors () {
     errorCount=$i
 }
 
-cd ..
-
 curl -o checkStyle.jar -L https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.0/checkstyle-10.12.0-all.jar
 curl -o configureStyle.xml -L https://raw.githubusercontent.com/HardikGoyal905/xxml/main/filecheck.xml
 
